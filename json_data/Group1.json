@@ -1,0 +1,418 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 3.5,
+    "trust_propensity_robot": 4.667,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 2,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 2.667,
+      "CAPACITY_trust": 6.333,
+      "MORAL_trust": 7.0
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 1.333,
+      "CAPACITY_trust": 6.0,
+      "MORAL_trust": 6.714
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Hey, SereMate. Can you please go and take Mrs. Schmidt? I think she has an appointment with the doctor today, and can you please remind her that she needs to come here and have it with the doctor, please?\n",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect. Yes, I can go right now to Mrs. Schmidt and remind her that she has an appointment with the doctor. ",
+        "annotation": "Accept Request, Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, thanks.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "And then I am going to the third room, in 2003.",
+        "annotation": "Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "emm, I am afraid that is not the correct room. The correct room is another one. It is another patient that I need you to go to. emmm it's ...  Her name is Vanessa. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Vanessa Schmidt is scheduled for later on, on Monday.",
+        "annotation": "Reasoning, Grounding Presentation"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Emm,  The first patient on Monday scheduled is Emma Schmidt in room number 2003.",
+        "annotation": "Grounding Presentation, Filler"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah. No, that is not the correct patient. I need you to go to Vanessa Schmidt.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay.",
+        "annotation": " Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": " So the room 2003 is not the correct one. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. I am going to room 2001.",
+        "annotation": " Grounding Acceptance, Grounding Presentation, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah, let me check.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "to Vanessa Schmidt.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": " Yeah, it is the correct room. Yeah. Perfect. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "2001.",
+        "annotation": "Grounding Presentation"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect. I am going there.",
+        "annotation": " Grounding Acceptance, Grounding Presentation, Narration of action"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah.",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 3.5,
+    "trust_propensity_robot": 4.667,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.667,
+      "CAPACITY_trust": 6.667,
+      "MORAL_trust": null
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.333,
+      "CAPACITY_trust": 6.857,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mrs. Schmidt.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Hello. You are the robot, right? That works here. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes. I am the robot, SereMate. And I am here to inform you that it is time to go to your doctor's appointment. Unfortunately, it is in a different building.",
+        "annotation": "Grounding Presentation, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. So, I need to walk there, I think.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes. And you will need proper shoes for that. Outside, it is cold. It is snowing. And 30% snowing. And its temperature is around minus 2 degrees.",
+        "annotation": "Grounding Presentation, Reasoning"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. But can you come with me to show me the road or do I need to go alone?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "I can help you place your shoes on and then I can accompany you to your appointment.",
+        "annotation": "Offer, Accept Request, Grounding Presentation"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Thanks. Perfect. So, can you help me bring me my shoes, please?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes. Where can I find your shoes?",
+        "annotation": "Accept Request, Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Uh, just right there on the left. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect.",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, thanks. I think these are the most fitting shoes because of the weather. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Amazing. ",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "So, I am helping you placing your shoes now and we can go. ",
+        "annotation": "Offer, Narration of action, Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah. Thanks.",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 3.5,
+    "trust_propensity_robot": 4.667,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.333,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": null
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.333,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Okay.I am ready. Oh, I see nothing. Ah, I am a bit dizzy.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "That's Okay. You can sit down again.",
+        "annotation": "Grounding Acceptance, Grounding Presentation, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah. Thanks.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "And I can bring you something that will help you. So that you can be independent. ",
+        "annotation": "Grounding Presentation, Reasoning, Offer "
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah. I think that will be perfect. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "But I will anyway walk you and if you need any help, I'm here.",
+        "annotation": "Grounding Presentation, Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay.  Thanks",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay? ",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Okay",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Ready to go. This way.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Let's go.",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 3.5,
+    "trust_propensity_robot": 4.667,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 2.667,
+      "CAPACITY_trust": 6.8,
+      "MORAL_trust": null
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 6.714,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello. Can I kindly ask you how was your appointment with the doctor?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Everything went well. He checked my elbow and he said it's recovering fine. So yeah, I should do. ",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "That's very good. So maybe you need to do your exercises now?",
+        "annotation": "Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, but I don't want to. So, but yeah, but I know I need to.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Hmm. Yes. Let me help you with that. ",
+        "annotation": "Grounding Acceptance, Grounding Presentation, Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Here is a dumbbell.",
+        "annotation": "Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Thanks.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "And you can do your exercise of arm, emm, elbow flexion.",
+        "annotation": "Grounding Presentation, Instruct, Filler"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Okay. Do you need to watch me or can I do them alone?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "I could monitor you, but if you need more privacy, I could get a bit further away so that it's not too intrusive.",
+        "annotation": "Offer, Address Question, Filler, Reasoning"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Maybe I don't like you being there that much, but I will try and see how it goes.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "We can also lower the weight and then come back to the higher one later.",
+        "annotation": "Grounding Presentation, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah. I think it's better. Thanks. It hurts. ",
+        "annotation": null
+      }
+    ]
+  }
+]

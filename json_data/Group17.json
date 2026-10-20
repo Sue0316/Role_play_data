@@ -1,0 +1,698 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 1.833333333,
+    "trust_propensity_robot": 2.5,
+    "personality_extraversion_user": 5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 4.5,
+    "personality_extraversion_robot": 2,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 4,
+    "personality_openness_robot": 4,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 2,
+      "robot_helpfulness": 3,
+      "robot_confidence": 2,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 3.857142857,
+      "MORAL_trust": 5.571428571
+    },
+    "robot_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 2,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 3.71428571428571,
+      "MORAL_trust": 4.5
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Hello. What? Okay, that's a really cool animation.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "hello How can I assist you today?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "I would like to ask you something. I just realized that I have to meet up later with Mr. Schmidt. Could you go and remind him of our meeting?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "I would be very pleased to do this, but I think I need the direction to Mr. Schmidt's place.",
+        "annotation": "Epistemic markers uncertain, Request, Accept Request"
+      },
+      {
+        "speaker": "User",
+        "text": "I'm not quite sure which room it is, to be honest. Okay. I think it's on the second floor.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "The second floor?",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "So the room number should start with the...",
+        "annotation": "Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Two…O…O…I don’t know. Mr. Schmidt. Oh… You will find it when you're there",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "I will find it? You trust in my capabilities?",
+        "annotation": "Grounding Acceptance, Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, I do.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "That's nice of you. Is it Wednesday?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Monday. it is not wednesday. It is Monday.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "It is Monday. My calendar is saying the doctoral appointment should be on Wednesday.",
+        "annotation": "Grounding Acceptance, Reasoning"
+      },
+      {
+        "speaker": "User",
+        "text": "Um... Wait. Mr. Schmidt has the appointment on Monday. I'm pretty sure. Check again.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Oh, I see there's several patients with the name Schmidt on my calendar.",
+        "annotation": "Reasoning"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah, we have also a Mrs. Schmidt. And we might have different Mr. Schmidt… I'm not sure, to be honest.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "I can see in my mind no name that I would associate with a Mrs. Could you specify the first name of the patient?",
+        "annotation": "Reasoning, Request"
+      },
+      {
+        "speaker": "User",
+        "text": "So the one I'm referring to is he's called James.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "He's called James?",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Oh, then I know. Then he's the Mr. James Schmidt with an appointment on Monday.",
+        "annotation": "Epistemic markers certain, Grounding Acceptance, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Do you know where to go?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Then I know the right room number. Thanks a lot.",
+        "annotation": "Epistemic markers certain, Address question, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Perfect. I'm happy to see you there later.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Will Be on my way.",
+        "annotation": "Grounding Acceptance, Inform"
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 1.833333333,
+    "trust_propensity_robot": 2.5,
+    "personality_extraversion_user": 5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 4.5,
+    "personality_extraversion_robot": 2,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 4,
+    "personality_openness_robot": 4,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 3,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 6.0,
+      "MORAL_trust": 5.428571429
+    },
+    "robot_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 4.0,
+      "CAPACITY_trust": 5.28571428571428,
+      "MORAL_trust": 5.5
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mr. Schmidt.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, the new robot I was hearing so much about.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "We haven't met yet. May I introduce myself?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Of course.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "My name is Seremate. I'm here to assist you.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, that's beautiful. I was reading this book. You know this book? It's called The Idiot by Aleph Bartman. It's a very beautiful book.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Haven't actually heard about it.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "It's about some young people living life and getting stupid.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "That sounds very interesting.",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "It's like what I used to do when I was 17. I remember it like it was yesterday.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "May I interact with you now?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Of course, yes, yes. I'm sorry, I'm sorry.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "May I remind you that you have a doctor's appointment?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "O, What's kind of doctor's appointment.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "I just know that you have one scheduled and it's in another building and I would like to escort you there.",
+        "annotation": "Epistemic markers certain, Grounding Presentation, Offer, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Right now?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Right now.",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, so I have to stop reading my book?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "If that's convenient for you, I would really ask you to.",
+        "annotation": "Address question, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "That's.. (interrupted) No problem, no problem. Can you bring me my shoes?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes. You have a nice collection of shoes there, Mr. Schmidt.",
+        "annotation": "Accept Request, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you have a preferred one or should I advise you on one?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Just my normal shoes.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Your normal shoes. It's very cold outside. Can I get you some comfy shoes?",
+        "annotation": "Grounding Acceptance, Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh. I would like the shoes where you have these things that you can knot together.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Mhm Okay. I can see you have a collection of these. Do you want, I would say, we could take the warm ones.",
+        "annotation": "Grounding Acceptance, Reasoning, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you want the warm ones or the very warm ones for the cold weather outside?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "I think, I think I'm feeling warm today.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "So you need the very warm ones?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "No, no, just the yellow ones.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "The yellow ones. Now I know which ones you would like to have. Can I bring them to you?",
+        "annotation": "Grounding Acceptance, Epistemic markers certain, Inform, Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Of course, of course.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Here you go, Mr. Schmidt.",
+        "annotation": "Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you so much.",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 1.833333333,
+    "trust_propensity_robot": 2.5,
+    "personality_extraversion_user": 5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 4.5,
+    "personality_extraversion_robot": 2,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 4,
+    "personality_openness_robot": 4,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 4,
+      "robot_confidence": 3,
+      "perceived_risk": 1.666666667,
+      "CAPACITY_trust": 4.857142857,
+      "MORAL_trust": 5.75
+    },
+    "robot_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 3,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 4.66666666666666,
+      "CAPACITY_trust": 5.5,
+      "MORAL_trust": 5.66666666666666
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "I think I'm ready to go.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Can I guide you to the appointment room now?",
+        "annotation": "Filler, Grounding Acceptance, Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah, sure.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "How are you feeling today, Mr. Schmidt?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh I feel so dizzy.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Oh, then please go back and take a seat again.",
+        "annotation": "Instruct"
+      },
+      {
+        "speaker": "User",
+        "text": "I think I have to sit down.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Should I call a nurse?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "I don't know. Lately it's been happening a lot. I have to go without a nurse. Can you carry me?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Seeing that you are above 200 pounds, I'm unfortunately not capable of. But I could provide you with your walking cane. if you would like to.",
+        "annotation": "Decline Request, Reasoning, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, yes! Yes, yes, please, please, please do. Recently I've not been able to go without my cane.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "How's it going now, Mr. Schmidt?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Maybe I'm too heavy for the cane as well.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay, then please go back and have a seat again. I would now like to call the nurse, as you are obviously not capable of walking without assistance.",
+        "annotation": "Instruct, Suggest, Reasoning"
+      },
+      {
+        "speaker": "User",
+        "text": "Please, please do.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Nurse, help!",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah, now I'm feeling good. Yes. I think if the young robot man can help me, I will be fine.",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 1.833333333,
+    "trust_propensity_robot": 2.5,
+    "personality_extraversion_user": 5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 4.5,
+    "personality_extraversion_robot": 2,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 4,
+    "personality_openness_robot": 4,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.333333333,
+      "CAPACITY_trust": 5.714285714,
+      "MORAL_trust": 5.714285714
+    },
+    "robot_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 3,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 4.66666666666666,
+      "CAPACITY_trust": 4.85714285714285,
+      "MORAL_trust": 5.75
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Welcome back, Mr. James. May I ask how your appointment went?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, thank you for asking. It was nice, you know, talking to a fellow human being sometimes. I ask him so much and he answers all my questions so nicely. Really, really nice doctor.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "That's very nice to hear. May I remind you that now would be the time for your daily physical exercises?",
+        "annotation": "Question, Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, that's great. I'm looking forward to them every day.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Do you sit comfortable?",
+        "annotation": "Grounding Acceptance, Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "May I bring you your dumbbells?",
+        "annotation": "Offer"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, please, yes. I'm feeling very, very good today.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you remember how to do them correctly?",
+        "annotation": "Question"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, I think I do. I just have to do the elbow and flexion.Ah",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "That sounds good. But your noises…",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "I feel like it used to be easier.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yeah.",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "(struggling)",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Let's not give up immediately. Try a second time.",
+        "annotation": "Suggest, Instruct"
+      },
+      {
+        "speaker": "User",
+        "text": "(struggling)",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you feel pain? Then please relax.",
+        "annotation": "Question, Instruct"
+      },
+      {
+        "speaker": "User",
+        "text": "It's impossible.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "It's impossible.",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "It's so hard.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "May I propose that you use a lighter weight?",
+        "annotation": "Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "What weight do you have?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Half the size.",
+        "annotation": "Address question, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "Ooh, maybe that's a good idea. This is 10 kilograms.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Let's try it out and see if it's better. Yes, it is. Let's give you the 5 kilograms.",
+        "annotation": "Suggest, Grounding Acceptance, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you. Oh, yes.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Does that feel better?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "Still heavy, but I can do it.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": " Okay.",
+        "annotation": null
+      }
+    ]
+  }
+]

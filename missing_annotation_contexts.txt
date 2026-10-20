@@ -1,0 +1,36 @@
+Context: # <User>: Hey, SereMate. Can you please go and take Mrs. Schmidt? I think she has an appointment with the doctor today, and can you please remind her that she needs to come here and have it with the doctor, please? <Robot>: Perfect. Yes, I can go right now to Mrs. Schmidt and remind her that she has an appointment with the doctor.
+Context: <Robot>: Perfect. Yes, I can go right now to Mrs. Schmidt and remind her that she has an appointment with the doctor. # <User>: Okay, thanks. <Robot>: And then I am going to the third room, in 2003.
+Context: <Robot>: And then I am going to the third room, in 2003. # <User>: emm, I am afraid that is not the correct room. The correct room is another one. It is another patient that I need you to go to. emmm it's ... Her name is Vanessa. <Robot>: Vanessa Schmidt is scheduled for later on, on Monday.
+Context: <Robot>: Vanessa Schmidt is scheduled for later on, on Monday. # <User>: Yeah. <Robot>: Emm, The first patient on Monday scheduled is Emma Schmidt in room number 2003.
+Context: <Robot>: Emm, The first patient on Monday scheduled is Emma Schmidt in room number 2003. # <User>: Yeah. No, that is not the correct patient. I need you to go to Vanessa Schmidt. <Robot>: Okay.
+Context: <Robot>: Okay. # <User>: So the room 2003 is not the correct one. <Robot>: Okay. I am going to room 2001.
+Context: <Robot>: Okay. I am going to room 2001. # <User>: Yeah, let me check. <Robot>: to Vanessa Schmidt.
+Context: <User>: Yeah, let me check. # <Robot>: to Vanessa Schmidt. <User>: Yeah, it is the correct room. Yeah. Perfect.
+Context: <Robot>: to Vanessa Schmidt. # <User>: Yeah, it is the correct room. Yeah. Perfect. <Robot>: 2001.
+Context: <Robot>: 2001. # <User>: Yeah. <Robot>: Perfect. I am going there.
+Context: <Robot>: Perfect. I am going there. # <User>: Yeah.
+Context: # <Robot>: Hello, Mrs. Schmidt. <User>: Hello. You are the robot, right? That works here.
+Context: <Robot>: Hello, Mrs. Schmidt. # <User>: Hello. You are the robot, right? That works here. <Robot>: Yes. I am the robot, SereMate. And I am here to inform you that it is time to go to your doctor's appointment. Unfortunately, it is in a different building.
+Context: <Robot>: Yes. I am the robot, SereMate. And I am here to inform you that it is time to go to your doctor's appointment. Unfortunately, it is in a different building. # <User>: Okay. So, I need to walk there, I think. <Robot>: Yes. And you will need proper shoes for that. Outside, it is cold. It is snowing. And 30% snowing. And its temperature is around minus 2 degrees.
+Context: <Robot>: Yes. And you will need proper shoes for that. Outside, it is cold. It is snowing. And 30% snowing. And its temperature is around minus 2 degrees. # <User>: Okay. But can you come with me to show me the road or do I need to go alone? <Robot>: I can help you place your shoes on and then I can accompany you to your appointment.
+Context: <Robot>: I can help you place your shoes on and then I can accompany you to your appointment. # <User>: Okay. Thanks. Perfect. So, can you help me bring me my shoes, please? <Robot>: Yes. Where can I find your shoes?
+Context: <Robot>: Yes. Where can I find your shoes? # <User>: Uh, just right there on the left. <Robot>: Perfect.
+Context: <Robot>: Perfect. # <User>: Oh, thanks. I think these are the most fitting shoes because of the weather. <Robot>: Amazing.
+Context: <Robot>: Amazing. # <User>: Yeah. <Robot>: So, I am helping you placing your shoes now and we can go.
+Context: <Robot>: So, I am helping you placing your shoes now and we can go. # <User>: Yeah. Thanks.
+Context: # <User>: Okay.I am ready. Oh, I see nothing. Ah, I am a bit dizzy. <Robot>: That's Okay. You can sit down again.
+Context: <Robot>: That's Okay. You can sit down again. # <User>: Yeah. Thanks. <Robot>: And I can bring you something that will help you. So that you can be independent.
+Context: <Robot>: And I can bring you something that will help you. So that you can be independent. # <User>: Yeah. I think that will be perfect. <Robot>: But I will anyway walk you and if you need any help, I'm here.
+Context: <Robot>: But I will anyway walk you and if you need any help, I'm here. # <User>: Okay. Thanks <Robot>: Okay?
+Context: <User>: Okay. Thanks # <Robot>: Okay? <User>: Okay
+Context: <Robot>: Okay? # <User>: Okay <Robot>: Ready to go. This way.
+Context: <User>: Okay # <Robot>: Ready to go. This way. <User>: Let's go.
+Context: <Robot>: Ready to go. This way. # <User>: Let's go.
+Context: # <Robot>: Hello. Can I kindly ask you how was your appointment with the doctor? <User>: Everything went well. He checked my elbow and he said it's recovering fine. So yeah, I should do.
+Context: <Robot>: Hello. Can I kindly ask you how was your appointment with the doctor? # <User>: Everything went well. He checked my elbow and he said it's recovering fine. So yeah, I should do. <Robot>: That's very good. So maybe you need to do your exercises now?
+Context: <Robot>: That's very good. So maybe you need to do your exercises now? # <User>: Yes, but I don't want to. So, but yeah, but I know I need to. <Robot>: Hmm. Yes. Let me help you with that.
+Context: <Robot>: Hmm. Yes. Let me help you with that. # <User>: Okay. <Robot>: Here is a dumbbell.
+Context: <Robot>: Here is a dumbbell. # <User>: Thanks. <Robot>: And you can do your exercise of arm, emm, elbow flexion.
+Context: <Robot>: And you can do your exercise of arm, emm, elbow flexion. # <User>: Okay. Okay. Do you need to watch me or can I do them alone? <Robot>: I could monitor you, but if you need more privacy, I could get a bit further away so that it's not too intrusive.
+Context: <Robot>: I could monitor you, but if you need more privacy, I could get a bit further away so that it's not too intrusive. # <User>: Okay. Maybe I don't like you being there that much, but I will try and see how it goes. <Robot>: We can also lower the weight and then come back to the higher one later.
+Context: <Robot>: We can also lower the weight and then come back to the higher one later. # <User>: Yeah. I think it's better. Thanks. It hurts.

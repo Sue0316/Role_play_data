@@ -1,0 +1,274 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 4.333333333,
+    "trust_propensity_robot": 3.66666666666666,
+    "personality_extraversion_user": 3,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4.5,
+    "personality_neuroticism_user": 4.5,
+    "personality_openness_user": 2.5,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 3.5,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 1.5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 2,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.333333333,
+      "CAPACITY_trust": 6.571428571,
+      "MORAL_trust": 5.875
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 3,
+      "robot_helpfulness": 4,
+      "robot_confidence": 5,
+      "perceived_risk": 1.66666666666666,
+      "CAPACITY_trust": 5.16666666666666,
+      "MORAL_trust": 5.8
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Hello, SereMate. Wake up. Could you go and remind Mrs. Schmidt that today she has an appointment with a doctor?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Can you provide details about where Mrs. Schmidt is?"
+      },
+      {
+        "speaker": "User",
+        "text": "She's in the right room."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you know her room number?"
+      },
+      {
+        "speaker": "User",
+        "text": "No, I don't. Yes, 2001."
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 4.333333333,
+    "trust_propensity_robot": 3.66666666666666,
+    "personality_extraversion_user": 3,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4.5,
+    "personality_neuroticism_user": 4.5,
+    "personality_openness_user": 2.5,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 3.5,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 1.5,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 2,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 2.333333333,
+      "CAPACITY_trust": 6.142857143,
+      "MORAL_trust": 5.75
+    },
+    "robot_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 3.33333333333333,
+      "CAPACITY_trust": 6.66666666666666,
+      "MORAL_trust": 6.8
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mrs. Schmidt. SereMate is here to help. You have an appointment starting in one hour, so we need to get you ready for the appointment."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. But first, I have to put my shoes on. Could you please bring me my shoes?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you have a specific recommendation?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, the grey-thick boots."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Because the weather today is very cold and it's snowy, so we can choose something that fits the weather."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, yes, the grey-thick boots. Thank you, SereMate"
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 4.333333333,
+    "trust_propensity_robot": 3.66666666666666,
+    "personality_extraversion_user": 3,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4.5,
+    "personality_neuroticism_user": 4.5,
+    "personality_openness_user": 2.5,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 3.5,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 1.5,
+    "user_rate": {
+      "robot_understood": 2,
+      "robot_assistance_appropriateness": 2,
+      "robot_autonomous": 1,
+      "robot_helpfulness": 4,
+      "robot_confidence": 2,
+      "perceived_risk": 2.333333333,
+      "CAPACITY_trust": 5.571428571,
+      "MORAL_trust": 6.875
+    },
+    "robot_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 2,
+      "robot_autonomous": 2,
+      "robot_helpfulness": 2,
+      "robot_confidence": 2,
+      "perceived_risk": 2.33333333333333,
+      "CAPACITY_trust": 5.16666666666666,
+      "MORAL_trust": 6.4
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Now I'm ready to go. Oh, I feel a bit dizzy."
+      },
+      {
+        "speaker": "Robot",
+        "text": "ehh Do you need any help from my side?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, could you bring me my stick?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "I know that you love walking. Would you mind if I help you get to the doctor's appointment myself?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, but I'd like my stick for support."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you."
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 4.333333333,
+    "trust_propensity_robot": 3.66666666666666,
+    "personality_extraversion_user": 3,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4.5,
+    "personality_neuroticism_user": 4.5,
+    "personality_openness_user": 2.5,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 3.5,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 1.5,
+    "user_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 1,
+      "robot_helpfulness": 5,
+      "robot_confidence": 2,
+      "perceived_risk": 2.666666667,
+      "CAPACITY_trust": 5.428571429,
+      "MORAL_trust": 6.75
+    },
+    "robot_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 6.16666666666666,
+      "MORAL_trust": 6.0
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mrs. Schmidt. How did your doctor's appointment go?"
+      },
+      {
+        "speaker": "User",
+        "text": "It went well. The doctor gave me some exercises to do for my hand recovery."
+      },
+      {
+        "speaker": "Robot",
+        "text": "So, first of all, you need to start with your arm exercises. You can do the elbow flexion first 10 times."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "I'll give you the dumbbell that you use, and you can stand up."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "you can do 10 times."
+      },
+      {
+        "speaker": "User",
+        "text": "One. Two. I think maybe you can do it better with a lighter one."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes, yes, please. Thank you."
+      },
+      {
+        "speaker": "User",
+        "text": "We can continue. Three. Four. Five. Six. Seven. Eight. Nine. Ten."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Thank you, SereMate."
+      }
+    ]
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 3,
+    "trust_propensity_robot": 4,
+    "personality_extraversion_user": 2.5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3.5,
+    "personality_extraversion_robot": 1.5,
+    "personality_agreeable_robot": 4,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 4.5,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 3,
+      "perceived_risk": 3.333333333,
+      "CAPACITY_trust": 5.0,
+      "MORAL_trust": 4.875
+    },
+    "robot_rate": {
+      "robot_understood": 2,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 3,
+      "robot_confidence": 2,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 4.0,
+      "MORAL_trust": 3.875
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Good morning."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Hello, Hello"
+      },
+      {
+        "speaker": "User",
+        "text": "Good morning, SereMate."
+      },
+      {
+        "speaker": "Robot",
+        "text": "I'm awake, how can I help you?"
+      },
+      {
+        "speaker": "User",
+        "text": "Did you sleep well?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "of course"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, Mrs. Schmidt has an appointment today. Can you go to her and remind her that she has an appointment with the doctor?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, thank you. And then can you come back and…"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yeah. Hello. Hello, Mrs. Schmidt. Are you there? Apparently not. Ah, okay. Hello, Mrs. Schmidt. Are you there? There are many Mrs. Schmidts."
+      },
+      {
+        "speaker": "User",
+        "text": "There are many Mrs. Schmidts."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Which Mrs. Schmidt do you mean?"
+      },
+      {
+        "speaker": "User",
+        "text": "Let me have a look. emm To which Mrs. Schmidt did you go?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "To Emma and Vanessa Schmidt."
+      },
+      {
+        "speaker": "User",
+        "text": "Are they in their rooms?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "No."
+      },
+      {
+        "speaker": "User",
+        "text": "No? Okay, so you need to go to room 2001 and remind her on her appointment."
+      },
+      {
+        "speaker": "Robot",
+        "text": "But she wasn't there."
+      },
+      {
+        "speaker": "User",
+        "text": "She wasn't there. So, is it Vanessa Schmidt in the room?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "But I can try it again."
+      },
+      {
+        "speaker": "User",
+        "text": "Can you try it again?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mrs. Schmidt. Please go to your doctor's appointment."
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 3,
+    "trust_propensity_robot": 4,
+    "personality_extraversion_user": 2.5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3.5,
+    "personality_extraversion_robot": 1.5,
+    "personality_agreeable_robot": 4,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 4.5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.333333333,
+      "CAPACITY_trust": 5.714285714,
+      "MORAL_trust": 6.0
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.33333333333333,
+      "CAPACITY_trust": 6.28571428571428,
+      "MORAL_trust": 5.33333333333333
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "So, Saramate, I'm ready to go."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay, let's go."
+      },
+      {
+        "speaker": "User",
+        "text": "ufff I feel a bit dizzy. Oh, thank you very much, Saramate."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yeah, you're welcome. Let's go."
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 3,
+    "trust_propensity_robot": 4,
+    "personality_extraversion_user": 2.5,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3.5,
+    "personality_extraversion_robot": 1.5,
+    "personality_agreeable_robot": 4,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 4.5,
+    "user_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 2.666666667,
+      "CAPACITY_trust": 4.857142857,
+      "MORAL_trust": 5.0
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 3,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 5,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 6.0,
+      "MORAL_trust": 6.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Let's go."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mrs. Schmidt. How was your doctor's appointment?"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, my arm is still hurting, but from time to time it gets better. And the doctor also said there's nothing to worry about. I just need to do my recovery exercises."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Then we will do your recovery exercise now."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, let's go. Do you help me?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Of course. Here, take it. Do it."
+      },
+      {
+        "speaker": "User",
+        "text": "How should I do it? Can you show it?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Like this. More. Yeah, it has to hurt. It can't get stronger. Here, Take another one. So here's the… (interrupted)"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, so we changed the weight. Oh, much better. Does it look right now?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Very good."
+      }
+    ]
+  }
+]

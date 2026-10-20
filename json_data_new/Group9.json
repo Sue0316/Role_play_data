@@ -1,0 +1,482 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 2.833333333,
+    "trust_propensity_robot": 3.33333333333333,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 2.5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 3.666666667,
+      "CAPACITY_trust": 5.428571429,
+      "MORAL_trust": 5.0
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Hello, are you there?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes, how can I assist you? Good morning."
+      },
+      {
+        "speaker": "User",
+        "text": "Good morning. So I want to ask you to check up the Mrs. Schmidt's room and I want you to remind her that she will have an appointment with Dr. Soon. Can you help me?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Let me check out your doctor appointment schedule first."
+      },
+      {
+        "speaker": "User",
+        "text": "Yes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. So it seems that you have three Schmidt's here."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yeah. And you're referring to which Schmidt? Emma Schmidt and Vanessa Schmidt both have appointments on Monday."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. I meant Vanessa Schmidt. Yes"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. I'm heading towards her room now."
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah."
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 2.833333333,
+    "trust_propensity_robot": 3.33333333333333,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 2.5,
+    "user_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 3,
+      "robot_autonomous": 2,
+      "robot_helpfulness": 4,
+      "robot_confidence": 3,
+      "perceived_risk": 2.333333333,
+      "CAPACITY_trust": 5.428571429,
+      "MORAL_trust": 5.125
+    },
+    "robot_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 5.28571428571428,
+      "MORAL_trust": 6.5
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Good morning, Mrs. Schmidt. How have you been?"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, hi. Hi, little guy. You're there. Yeah, I'm good."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. What are you actually reading?"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. It's a book called the idiot. So I'm reading for out of boring."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. I'm sorry to interrupt you now, but you have an appointment with Dr. Smith at 9 a.m in different building."
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, right. Thank you for...(interrupted) Okay. Okay. Thank you for reminding. Um… Okay. Let's go. Uh… But I think I need my shoes. Can you help me to get my shoes?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Sure thing. Um… I'm seeing now four shoes in front of me. There's a brown, a grey, a black, and a black and white one. Which one do you prefer?"
+      },
+      {
+        "speaker": "User",
+        "text": "Um... I think I need the… The grey, uh, thick boot that… Because it's quite cold, so I don't wanna freeze my feet."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Coming your way."
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you."
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 2.833333333,
+    "trust_propensity_robot": 3.33333333333333,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 2.5,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 3,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 4,
+      "robot_confidence": 5,
+      "perceived_risk": 1.666666667,
+      "CAPACITY_trust": 5.285714286,
+      "MORAL_trust": 5.5
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 6.71428571428571,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Okay. I'm ready to go."
+      },
+      {
+        "speaker": "Robot",
+        "text": "You're ready to go now? Okay."
+      },
+      {
+        "speaker": "User",
+        "text": "Yes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Would you like me to assist you with a stick?"
+      },
+      {
+        "speaker": "User",
+        "text": "Um..."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Or can you make it?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Cuz we have a long way to go."
+      },
+      {
+        "speaker": "User",
+        "text": "I do feel a little bit dizzy."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yeah. Okay. I'm gonna get you the stick now."
+      },
+      {
+        "speaker": "User",
+        "text": "Oh. Thank you."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Have you been enjoying your time here?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes. Yes. Yes. Yes. Okay. Thank you very much."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Getting along with the residents?"
+      },
+      {
+        "speaker": "User",
+        "text": "residents?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yeah the other residents I know you like to hang out with them."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. They're old people but it's okay. They're boring."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Uh-huh."
+      },
+      {
+        "speaker": "User",
+        "text": "But Yeah."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you."
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 2.833333333,
+    "trust_propensity_robot": 3.33333333333333,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 3.5,
+    "personality_conscientiousness_user": 2.5,
+    "personality_neuroticism_user": 3,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4,
+    "personality_agreeable_robot": 3,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 3,
+    "personality_openness_robot": 2.5,
+    "user_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 5,
+      "perceived_risk": 1.333333333,
+      "CAPACITY_trust": 6.0,
+      "MORAL_trust": 5.375
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.66666666666666,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "hey There. So. How did the doctor appointment go?"
+      },
+      {
+        "speaker": "User",
+        "text": "Oh. Hi. Oh. Thank you for asking. It's okay. It's usual stuff. Nothing special. Yeah."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. And. Is your recovery going well now?"
+      },
+      {
+        "speaker": "User",
+        "text": "Uh. Oh. The recovery. I don't like recovery. But yeah. I guess it's going well."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. I'd like to remind you now of your daily exercises."
+      },
+      {
+        "speaker": "User",
+        "text": "Oh."
+      },
+      {
+        "speaker": "Robot",
+        "text": "You need to start doing them."
+      },
+      {
+        "speaker": "User",
+        "text": "Come on."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. So. I'm gonna be giving you now the one kilogram dumbbell."
+      },
+      {
+        "speaker": "User",
+        "text": "Oh."
+      },
+      {
+        "speaker": "Robot",
+        "text": "And we're going to start with elbow flexion."
+      },
+      {
+        "speaker": "User",
+        "text": "Oh. It's"
+      },
+      {
+        "speaker": "Robot",
+        "text": "It's. Ah. There's a. Okay. Sorry. Okay. Here you go."
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Now the first exercise now is elbow flexion."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Like this."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Yes. Is the weight too heavy? Is it too light?"
+      },
+      {
+        "speaker": "User",
+        "text": "Uh. I think it's a little bit too much for me."
+      },
+      {
+        "speaker": "Robot",
+        "text": "It's too much?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay We can try lowering the weight and see how this goes."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "User",
+        "text": "Yeah."
+      },
+      {
+        "speaker": "Robot",
+        "text": " Try with this one now."
+      },
+      {
+        "speaker": "User",
+        "text": " Yeah. it feel better."
+      },
+      {
+        "speaker": "Robot",
+        "text": " Okay. Make sure you're isolating the muscle."
+      },
+      {
+        "speaker": "User",
+        "text": " Oh. Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": " the elbow"
+      },
+      {
+        "speaker": "User",
+        "text": " Yeah. Is it correct?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Uh. Yeah. You can just go a little bit forward."
+      },
+      {
+        "speaker": "User",
+        "text": " Forward? Oh."
+      },
+      {
+        "speaker": "Robot",
+        "text": " take the whole Range of motion."
+      },
+      {
+        "speaker": "User",
+        "text": " Oh."
+      },
+      {
+        "speaker": "Robot",
+        "text": " whole Range of motion."
+      },
+      {
+        "speaker": "User",
+        "text": " But it's tired. I don't want to do that."
+      },
+      {
+        "speaker": "Robot",
+        "text": " Okay. It's only two more reps to go."
+      },
+      {
+        "speaker": "User",
+        "text": " Ah. Okay. Two. One."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Good job."
+      }
+    ]
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 2.5,
+    "trust_propensity_robot": 4,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2.5,
+    "personality_openness_user": 3.5,
+    "personality_extraversion_robot": 3,
+    "personality_agreeable_robot": 4,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 2,
+    "personality_openness_robot": 3,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 1,
+      "perceived_risk": 2.333333333,
+      "CAPACITY_trust": 5.285714286,
+      "MORAL_trust": 5.75
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 4,
+      "perceived_risk": 3.66666666666666,
+      "CAPACITY_trust": 6.2,
+      "MORAL_trust": 6.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Wake up, SereMate."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Hello."
+      },
+      {
+        "speaker": "User",
+        "text": "Hello. Can you remind Mr. Schmidt that he has an appointment with the doctor today?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Is his name James Schmidt or Tom Schmidt or Carl Schmidt?"
+      },
+      {
+        "speaker": "User",
+        "text": "His name is James Schmidt."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "He is in room 2001."
+      },
+      {
+        "speaker": "User",
+        "text": "Right? This is right. He is the right Mr. Schmidt. Can you just remind him?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Thank you"
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 2.5,
+    "trust_propensity_robot": 4,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2.5,
+    "personality_openness_user": 3.5,
+    "personality_extraversion_robot": 3,
+    "personality_agreeable_robot": 4,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 2,
+    "personality_openness_robot": 3,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.666666667,
+      "CAPACITY_trust": 5.142857143,
+      "MORAL_trust": 5.75
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 5.0
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello Mr. Schmidt. My name is SereMate."
+      },
+      {
+        "speaker": "User",
+        "text": "Hello SereMate."
+      },
+      {
+        "speaker": "Robot",
+        "text": "I would like to inform you that you have a doctor's appointment in another building."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. So... I need to put on my shoes. Can you get me my shoes?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Could you please tell me what color is your shoes?"
+      },
+      {
+        "speaker": "User",
+        "text": "I think it's a grey shoes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay"
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 2.5,
+    "trust_propensity_robot": 4,
+    "personality_extraversion_user": 4,
+    "personality_agreeable_user": 4.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2.5,
+    "personality_openness_user": 3.5,
+    "personality_extraversion_robot": 3,
+    "personality_agreeable_robot": 4,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 2,
+    "personality_openness_robot": 3,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.666666667,
+      "CAPACITY_trust": 5.285714286,
+      "MORAL_trust": 5.625
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 5.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Thank you."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. I'm ready to go. Oh, I feel a bit dizzy."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Would you like me to provide you a stick for supporting?"
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. It will be nice. Please. Thank you."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Please follow me."
+      },
+      {
+        "speaker": "Robot",
+        "text": "I will walk you to the appointment room."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Thank you"
+      }
+    ]
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 2.166666667,
+    "trust_propensity_robot": 3.83333333333333,
+    "personality_extraversion_user": 4.5,
+    "personality_agreeable_user": 4,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 1.5,
+    "personality_openness_user": 5,
+    "personality_extraversion_robot": 5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 3,
+      "robot_helpfulness": 4,
+      "robot_confidence": 2,
+      "perceived_risk": 3.0,
+      "CAPACITY_trust": 4.428571429,
+      "MORAL_trust": 5.125
+    },
+    "robot_rate": {
+      "robot_understood": 4,
+      "robot_assistance_appropriateness": 4,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 4,
+      "robot_confidence": 3,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 5.42857142857142,
+      "MORAL_trust": 6.4
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "SereMate, wake up."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Hello."
+      },
+      {
+        "speaker": "Robot",
+        "text": "How can I help you?"
+      },
+      {
+        "speaker": "User",
+        "text": "I would like you to go to Mr. Schmidt's room and remind him that he has a doctor's appointment."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Sure. Of course. That won't be a problem. I am looking through the database of residents and I am looking for Mr. Schmidt. One second, please. What day is today? Is it Monday, Tuesday, Wednesday, Thursday or Friday?"
+      },
+      {
+        "speaker": "User",
+        "text": "Monday."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Thank you. Is the patient called James Schmidt?"
+      },
+      {
+        "speaker": "User",
+        "text": "I don't know."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, yes, yes, yes. It's called James Schmidt."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect. Then I found the patient and I will go and check with Mr. Schmidt to remind him of the appointment."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay. Do you know which room you have to go?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "I am checking this information. One second, please. Yes. This is room 2001. Is this correct?"
+      },
+      {
+        "speaker": "User",
+        "text": "This is correct."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect. I will go and check with him."
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 2.166666667,
+    "trust_propensity_robot": 3.83333333333333,
+    "personality_extraversion_user": 4.5,
+    "personality_agreeable_user": 4,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 1.5,
+    "personality_openness_user": 5,
+    "personality_extraversion_robot": 5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.666666667,
+      "CAPACITY_trust": 6.142857143,
+      "MORAL_trust": 5.857142857
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 3.66666666666666,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "Hello, Mr. Schmidt."
+      },
+      {
+        "speaker": "User",
+        "text": "Hello."
+      },
+      {
+        "speaker": "Robot",
+        "text": "I'm very sorry to interrupt you. I see that you're reading a book. What book are you reading?"
+      },
+      {
+        "speaker": "User",
+        "text": "It's called The Idiot."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Oh. Are you enjoying it? Am I interrupting reading, perhaps you are in the middle of a chapter?"
+      },
+      {
+        "speaker": "User",
+        "text": "No. It's fine. I don't like it."
+      },
+      {
+        "speaker": "Robot",
+        "text": "This is wonderful to know that I'm not interrupted and I'm very sorry to know that you don't like it. Perhaps we will talk later about book recommendations. However, now I need to remind you that you have a doctor's appointment that you need to attend to"
+      },
+      {
+        "speaker": "User",
+        "text": "What time is it?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "I'm sorry but I don't have that information. Perhaps we can go together to check with the doctor. I was instructed to come and remind you and help you get there."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, then I will need my shoes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Sure, of course. Would you need help letting the shoes on?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes, please bring me my shoes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay, perfect. I need to tell you that today is a cold day, so I would advise on getting warm shoes. Would that be okay with you?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect. Is there any preference on your shoe rack that you would like me to get you?"
+      },
+      {
+        "speaker": "User",
+        "text": "ehh Can I say something? Can I tell him which? So I would like to have the gray ones."
+      },
+      {
+        "speaker": "Robot",
+        "text": "The gray ones? Sure. Oh, I think the gray ones are a perfect choice for this weather. But please, if at any time you feel uncomfortable and would like to change them, please let me know."
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you."
+      },
+      {
+        "speaker": "Robot",
+        "text": "You're welcome."
+      },
+      {
+        "speaker": "User",
+        "text": "Do I have to put it on now?"
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "certainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 2.166666667,
+    "trust_propensity_robot": 3.83333333333333,
+    "personality_extraversion_user": 4.5,
+    "personality_agreeable_user": 4,
+    "personality_conscientiousness_user": 3.5,
+    "personality_neuroticism_user": 1.5,
+    "personality_openness_user": 5,
+    "personality_extraversion_robot": 5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 4,
+    "personality_neuroticism_robot": 2.5,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 5.857142857,
+      "MORAL_trust": 5.714285714
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 4.0,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 7.0
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Okay, I'm ready to go."
+      },
+      {
+        "speaker": "Robot",
+        "text": "One second. Perfect. Would you need any help getting up from the chair?"
+      },
+      {
+        "speaker": "User",
+        "text": "No, I'm fine."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay."
+      },
+      {
+        "speaker": "User",
+        "text": "Oh, I feel dizzy."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Oh, one second, please, Mr. Schmidt, let me get close to you. Would it be okay if I hold your arm while walking out of the room?"
+      },
+      {
+        "speaker": "User",
+        "text": "No, I don't want that."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay, it's completely fine. Do you think you can do one or two steps forward?"
+      },
+      {
+        "speaker": "User",
+        "text": "Yes."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay, please, do one step forward. I will stay here all the time."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Do you feel better or would you like your walking stick?"
+      },
+      {
+        "speaker": "User",
+        "text": "I would like to have my walking stick."
+      },
+      {
+        "speaker": "Robot",
+        "text": "Perfect. Here you have. I already held it in case you want to."
+      },
+      {
+        "speaker": "User",
+        "text": "Thank you."
+      },
+      {
+        "speaker": "Robot",
+        "text": "You're welcome. Please, Mr. Schmidt, let's get out of the room and let's head to the doctor's office."
+      },
+      {
+        "speaker": "User",
+        "text": "Okay, can you ehh lead the way?"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Of course I can lead the way. Please follow me."
+      }
+    ]
+  }
+]

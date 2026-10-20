@@ -1,0 +1,363 @@
+[
+  {
+    "scene": 1,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 4,
+    "trust_propensity_robot": 2.33333333333333,
+    "personality_extraversion_user": 2,
+    "personality_agreeable_user": 2.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4.5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 1,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.333333333,
+      "CAPACITY_trust": 6.166666667,
+      "MORAL_trust": 6.0
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 3,
+      "robot_confidence": 5,
+      "perceived_risk": 2.0,
+      "CAPACITY_trust": 7.0,
+      "MORAL_trust": 7
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "Good Morning, SereMate wake up",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "good morning nurse. happy to help, what can i do for you?",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "we have a patient, Mr. Schmidt, and he has an appointment today so you have to remind him.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "awesome i can do that. what more information do i need to execute this task correctly",
+        "annotation": "Grounding Acceptance, Accept Request, Question"
+      },
+      {
+        "speaker": "User",
+        "text": "his name is james schmidt and he's living in room 2001.",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "amazing",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "Robot",
+        "text": "Knock Knock",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 4,
+    "trust_propensity_robot": 2.33333333333333,
+    "personality_extraversion_user": 2,
+    "personality_agreeable_user": 2.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4.5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 1,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 3,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 4,
+      "robot_helpfulness": 5,
+      "robot_confidence": 3,
+      "perceived_risk": 1.666666667,
+      "CAPACITY_trust": 5.0,
+      "MORAL_trust": 5.666666667
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 4,
+      "perceived_risk": 1.66666666666666,
+      "CAPACITY_trust": 6.42857142857142,
+      "MORAL_trust": 7
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "yes",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Good morning, Mr. Schmidt i hope you're having a wonderful day",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "yeah it's great i'm reading a book",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "awesome i'm here to remind you of your appointment",
+        "annotation": "Grounding Presentation, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "oh okay thank you um i need shoes for that. could you bring me the shoes please?",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "of course",
+        "annotation": "Accept Request"
+      },
+      {
+        "speaker": "User",
+        "text": "yeah that's the these are the right shoes thank you",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "you're welcome",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 3,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "certainty",
+    "trust_propensity_user": 4,
+    "trust_propensity_robot": 2.33333333333333,
+    "personality_extraversion_user": 2,
+    "personality_agreeable_user": 2.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4.5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 1,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 6.666666667,
+      "MORAL_trust": 6.714285714
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 3.66666666666666,
+      "CAPACITY_trust": 6.83333333333333,
+      "MORAL_trust": 7
+    },
+    "dialogue": [
+      {
+        "speaker": "User",
+        "text": "okay i'm ready to go",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "amazing please follow me",
+        "annotation": "Grounding Acceptance, Request"
+      },
+      {
+        "speaker": "User",
+        "text": "oh i feel a bit dizzy",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "you feel dizzy?",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "yes",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "one second don't move. I hope this helps",
+        "annotation": "Instruct, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "yes thank you",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "amazing",
+        "annotation": "Grounding Acceptance"
+      },
+      {
+        "speaker": "User",
+        "text": "let's go",
+        "annotation": null
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "perceived_uncertainty_user": "uncertainty",
+    "perceived_uncertatinty_robot": "uncertainty",
+    "trust_propensity_user": 4,
+    "trust_propensity_robot": 2.33333333333333,
+    "personality_extraversion_user": 2,
+    "personality_agreeable_user": 2.5,
+    "personality_conscientiousness_user": 4,
+    "personality_neuroticism_user": 2,
+    "personality_openness_user": 3,
+    "personality_extraversion_robot": 4.5,
+    "personality_agreeable_robot": 3.5,
+    "personality_conscientiousness_robot": 5,
+    "personality_neuroticism_robot": 1,
+    "personality_openness_robot": 5,
+    "user_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 1.0,
+      "CAPACITY_trust": 6.833333333,
+      "MORAL_trust": 6.571428571
+    },
+    "robot_rate": {
+      "robot_understood": 5,
+      "robot_assistance_appropriateness": 5,
+      "robot_autonomous": 5,
+      "robot_helpfulness": 5,
+      "robot_confidence": 5,
+      "perceived_risk": 3.33333333333333,
+      "CAPACITY_trust": 6.16666666666666,
+      "MORAL_trust": 7
+    },
+    "dialogue": [
+      {
+        "speaker": "Robot",
+        "text": "hello mr schmidt how did the doctor's appointment go",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "it was great uh he had good news for me",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "amazing do you remember that now is your time for your exercise",
+        "annotation": "Grounding Presentation, Question"
+      },
+      {
+        "speaker": "User",
+        "text": "oh yes",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "your elbow flexion",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "ah okay",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "i will bring you the weight. Oh Mr. Schmidt how is it going",
+        "annotation": "Narration of action, Question"
+      },
+      {
+        "speaker": "User",
+        "text": "yeah",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "you look a little bit exhausted, would you like me to change the weight now",
+        "annotation": "Offer, Reasoning"
+      },
+      {
+        "speaker": "User",
+        "text": "yeah that's that would be great",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "Okay. Let's try this one",
+        "annotation": "Grounding Acceptance, Suggest"
+      },
+      {
+        "speaker": "User",
+        "text": "thank you yeah that's better",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "okay in time we will increase the weight. that's important for your muscle gain",
+        "annotation": "Grounding Acceptance, Inform"
+      },
+      {
+        "speaker": "User",
+        "text": "okay",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "so we will always start with the heavier weight and then move to the lighter weight. if it's too much and you will make it longer i want to motivate you",
+        "annotation": null
+      },
+      {
+        "speaker": "User",
+        "text": "thank you yeah. you're very motivating",
+        "annotation": null
+      },
+      {
+        "speaker": "Robot",
+        "text": "thank you",
+        "annotation": null
+      }
+    ]
+  }
+]
