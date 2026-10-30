@@ -1,6 +1,10 @@
 [
   {
     "scene": 2,
+    "manipulated_uncertainty": "uncertainty",
+    "robot_context": {
+      "description": "The weather shows that: it will snow today, with a 30% chance of snow; the temperature will be between -8 °C and -2 °C; three pairs of shoes are available for the resident: one pair of loafers, one pair of sneakers, and one pair of snow boots."
+    },
     "perceived_uncertainty_user": "certainty",
     "perceived_uncertatinty_robot": "certainty",
     "trust_propensity_user": 3.666666667,
@@ -88,6 +92,10 @@
   },
   {
     "scene": 3,
+    "manipulated_uncertainty": "certainty",
+    "robot_context": {
+      "description": "Vanessa Schmidt's hobbies are chatting with other residents and card games; she has a sociable and outgoing personality; she receives assistance in 80% of situations."
+    },
     "perceived_uncertainty_user": "certainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 3.666666667,
@@ -159,6 +167,10 @@
   },
   {
     "scene": 4,
+    "manipulated_uncertainty": "certainty",
+    "robot_context": {
+      "description": "Mrs. Schmidt is struggling at a high level while doing the exercise (about 80% of the scale)."
+    },
     "perceived_uncertainty_user": "certainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 3.666666667,
