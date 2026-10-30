@@ -1,6 +1,10 @@
 [
   {
     "scene": 1,
+    "manipulated_uncertainty": "certainty",
+    "robot_context": {
+      "description": "Today is Monday. Emma Schmidt has an appointment on Wednesday; Sophia Ramirez has an appointment on Tuesday; Vanessa Schmidt has an appointment on Monday; Oliver Benneth has an appointment on Thursday; Mia Schmidt has an appointment on Thursday; Ethan Collins has an appointment on Friday."
+    },
     "perceived_uncertainty_user": "uncertainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 3.833333333,
@@ -104,6 +108,10 @@
   },
   {
     "scene": 2,
+    "manipulated_uncertainty": "certainty",
+    "robot_context": {
+      "description": "The weather shows that: it will snow today, with a 30% chance of snow; the temperature will be between -8 °C and -2 °C; four pairs of shoes are available for the resident: one pair of loafers, one pair of sneakers, one pair of Timberland boots, and one pair of snow boots."
+    },
     "perceived_uncertainty_user": "uncertainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 3.833333333,
@@ -199,6 +207,10 @@
   },
   {
     "scene": 3,
+    "manipulated_uncertainty": "uncertainty",
+    "robot_context": {
+      "description": "Vanessa Schmidt's hobbies are solo walking, fishing and film watching; she has an independent and self-reliant personality; she receives assistance in 40% of situations."
+    },
     "perceived_uncertainty_user": "uncertainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 3.833333333,
@@ -274,6 +286,10 @@
   },
   {
     "scene": 4,
+    "manipulated_uncertainty": "uncertainty",
+    "robot_context": {
+      "description": "Mrs. Schmidt is struggling at a moderate level while doing the exercise (about 50% of the scale)."
+    },
     "perceived_uncertainty_user": "uncertainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 3.833333333,

@@ -1,6 +1,10 @@
 [
   {
     "scene": 1,
+    "manipulated_uncertainty": "uncertainty",
+    "robot_context": {
+      "description": "Today is Monday. Tom Schmidt has an appointment on Monday; Sophia Ramirez has an appointment on Tuesday; James Schmidt has an appointment on Monday; Oliver Benneth has an appointment on Thursday; Karl Schmidt has an appointment on Thursday; Ethan Collins has an appointment on Friday."
+    },
     "perceived_uncertainty_user": "uncertainty",
     "perceived_uncertatinty_robot": "uncertainty",
     "trust_propensity_user": 4.166666667,
@@ -108,6 +112,10 @@
   },
   {
     "scene": 2,
+    "manipulated_uncertainty": "certainty",
+    "robot_context": {
+      "description": "The weather shows that: it will snow today, with a 30% chance of snow; the temperature will be between -8 °C and -2 °C; four pairs of shoes are available for the resident: one pair of loafers, one pair of sneakers, one pair of Timberland boots, and one pair of snow boots."
+    },
     "perceived_uncertainty_user": "uncertainty",
     "perceived_uncertatinty_robot": "certainty",
     "trust_propensity_user": 4.166666667,
@@ -215,6 +223,10 @@
   },
   {
     "scene": 3,
+    "manipulated_uncertainty": "certainty",
+    "robot_context": {
+      "description": "James Schmidt's hobbies are chatting with other residents and card games; he has a sociable and outgoing personality; he receives assistance in 80% of situations."
+    },
     "perceived_uncertainty_user": "certainty",
     "perceived_uncertatinty_robot": "certainty",
     "trust_propensity_user": 4.166666667,
