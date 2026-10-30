@@ -1,0 +1,6 @@
+# Python 3.10-3.12 recommended. ffmpeg must also be installed and on PATH.
+torch==2.8.*
+torchaudio==2.8.*
+numpy
+num2words
+pymongo  # only needed to read annotations straight from the NOVA database
