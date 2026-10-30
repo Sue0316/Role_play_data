@@ -85,3 +85,27 @@ sessions have no dialogue scene, so mismatched names show up immediately.
 ```
 
 Unlabelled (NOVA "garbage") segments get `"label": null`.
+
+## Labels per turn (`align_turns.py`)
+
+The dialogue turns have no timestamps, so `align_turns.py` first force-aligns
+the existing transcription to each session's video with the MMS aligner from
+torchaudio (runs on CPU, no re-transcription), then adds `start`, `end` and
+the overlapping NOVA labels to every turn:
+
+```json
+{"speaker": "Robot", "text": "...", "annotation": "Inform",
+ "start": 47.9, "end": 52.3, "align_score": 0.91,
+ "nova": {"Robot": ["Pausing"], "Both": ["Not Grounded"], "Off topic": ["On topic"]}}
+```
+
+```bash
+pip install "torch==2.8.*" "torchaudio==2.8.*" num2words   # plus ffmpeg on PATH
+python nova_export/align_turns.py --dialogues json_data --media nova_media \
+    --nova-files nova_files --out nova_release
+```
+
+`nova_media/` holds one video per session (`Group1_1/roleplay.video.mp4` or
+`Group1_1.mp4`). Check the result by opening `nova_release/srt/Group1_1.srt`
+as subtitles next to the video in VLC. Turns with a low `align_score` are
+listed at the end of the run.
